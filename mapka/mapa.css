@@ -1,0 +1,104 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+#mapa{
+    width: 100%;
+}
+#centr{
+    width: 40vw;
+margin: 0 auto;
+}
+#sipka{
+    vertical-align: 1px;
+    font-size: 0.8em;
+    width: 20px;
+    padding-right: 20px;
+    color: #20519D;
+    fill: #20519D;
+    
+}
+#tlacitkozpet{
+    font-size: 1.5em;
+    color: #20519D;
+    fill: #20519D;
+    cursor: pointer;
+}
+g:focus {outline: none;}
+#tlacitkozpet:hover{
+    opacity: 0.8;
+}
+#udaje{
+    display: none;
+}
+#informace{
+    padding-bottom: 20px;
+}
+.modal p{
+    font-size: 1.2em;
+}
+
+#nadpis{
+    color:#20519d;
+    text-align: center;
+    padding-bottom: 1em;
+}
+.cls-1,.cls-3
+{fill:#fff;
+stroke: #20519D;
+stroke-miterlimit:1;
+stroke-width:3px;
+cursor: pointer;
+}
+.cls-1:hover{
+    fill: #5583c7;
+}
+.cls-2
+{fill:#20519d;}
+.cls-3
+{stroke:#20519d;stroke-miterlimit:10;stroke-width:3px;}
+.st0{
+    cursor: pointer;
+}
+.st0:hover{
+    fill: #5583c7;
+}
+g:hover{
+    cursor: pointer;
+}
+
+g:not(#layer1):hover .cls-3{
+    transition: 0.1s ease-in-out;
+    fill: #5583c7;
+}
+g:not(#layer1):hover .cls-1{
+    transition: 0.1s ease-in-out;
+    fill: #5583c7;
+}
+.aktivni{
+    fill: #20519D !important;
+    
+}
+.aktivni:hover{
+    fill: #20519D !important; 
+    
+}
+.SocialIcons-item--email{
+    background-image: url(images/mail.svg);
+    background-repeat: no-repeat;
+}
+.SocialIcons-item a {
+    display: block;
+    height: 3.14286em;
+    width: 3.14286em;
+    overflow: hidden;
+    color: #3a3a3a;
+    text-indent: -999em;
+    background: 50% 50% no-repeat;
+}
+.SocialIcons>ul {
+   
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
