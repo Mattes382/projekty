@@ -1,0 +1,408 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+  }
+footer{
+    text-align: center;
+    height: 5vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  footer p{
+    font-size: 18px;
+    
+  }
+  main{
+    width: 100%;
+    
+  }
+  nav{
+      position: fixed;
+      height: 80px;
+      width: 100vw;
+      background-color: white;
+      z-index: 999;
+      border-bottom: 1px solid #707070;
+  }
+  .profilenav{
+      height: 80px;
+      background-color: rgb(151, 69, 113);
+  }
+
+  .profienavcontainer{
+    max-width: 1190px;
+      margin: auto;
+  }
+  .navcontainer{
+    max-width: 1190px;
+    margin: auto;
+    display: flex;
+    height: 100%;
+  }
+  .navlogo{
+    flex: 3;  
+    height:100%;
+}
+.navprofile{
+    flex: 1;  
+}
+.navsearch{
+    flex: 1;  
+}
+.profilstatistiky{
+    position: relative;
+    top: -185px;
+    color: white;
+
+}
+.statistika{
+    height: 100%;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 80px;
+}
+.otevrena{
+    border-bottom: 2px solid white;
+}
+.hodnotastatistiky{
+    font-size: 25px;
+}
+  .profilobrazek{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(151, 69, 113);
+    border-radius: 50%;
+    position: relative;
+    top: -100px;
+  }
+  header{
+      height: 60vh;
+
+  }
+  header img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .feed{
+    width: 600px;
+    background-color:
+    white;
+    margin: auto;
+    position: relative;
+    margin-top: -325px;
+    margin-bottom: 30px;
+  }
+  
+  .prispevek{
+      min-height: 50px;
+      width: 100%;
+      border-bottom: 1px solid rgb(214, 214, 214);
+  }
+  .fotkaprispevku{
+      height: 100%;
+      display: inline-block;
+  }
+ 
+  .statistikyprispevku{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .statistikaprispevku{
+    margin-right: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.statistikaprispevku img{
+    width: 18px;
+    border-radius: 0px !important;
+    margin-top: 0px !important;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.statistikaprispevku b{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+  .wituzivatele{
+  
+      display: inline-block;
+      margin-left: 10px;
+      vertical-align: 55px;
+  }
+  .wituzivatele img{
+      height: 19px;
+      vertical-align: sub;
+  }
+  .wituzivatele a{
+      color: #707070;
+
+  }
+  .jmeno, .adresawitru, .overeno{
+    vertical-align: middle;
+    display: inline-block;
+  } 
+  .adresawitru{
+      vertical-align: initial;
+  }
+  .textprispevku{
+position: relative;
+left: 140px;
+width: 70%;
+margin-top: -40px;
+    
+  }
+  .textprispevku img{
+      max-width: 400px;
+      border-radius: 20px;
+      margin-top: 30px;
+  }
+  .albumthumb{
+      width: 49%;
+      display: inline-block;
+vertical-align: middle;
+  }
+
+  .multifoto{
+      max-width: 600px;
+      margin-top: 30px;
+      width: 100%;
+  }
+  .multifoto a img{
+    width: 100%;
+    margin-top: 0px !important;
+  }
+
+hashtag{
+    color: rgb(151, 69, 113);
+}
+#searchbox{
+    border: 1px solid #707070;
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    padding: 6px;
+    padding-left: 20px;
+
+}
+.vyhledavaciikona{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(151, 69, 113);
+    position: relative;
+    left: -39px;
+}
+  .fotkaprispevku img{
+    width: 75px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.bio{
+    position: relative;
+    width: 200px;
+    
+    top: -120px;
+}
+.overenobio img{
+    width: 20px;
+}
+.jmenobio{
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.overenobio{
+    display: inline-block;
+    vertical-align: text-top;
+}
+.adresawitrubio{
+    color: #707070;
+}
+.popisek{
+    margin-top: 10px;
+}
+.datumzalozeni{
+margin-top: 10px;
+
+}
+.linknastranku{
+    margin-top: 10px;
+}
+.datumzalozeni a{
+    color: #707070;
+    text-decoration: none;
+    vertical-align: bottom;
+    display: inline-block;
+    margin-left: 5px;
+}
+aside{
+width: 200px;
+position: relative;
+left: 420px;
+top: 55px;
+}
+.trend{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.trend p{
+    
+    font-size: 20px;
+}
+.datumzalozeni img{
+    vertical-align: middle;
+    display: inline-block;
+}
+.linknastranku a{
+    color: #00AAEA;
+    text-decoration: none;
+    vertical-align: bottom;
+    display: inline-block;
+    margin-left: 5px;
+}
+.linknastranku img{
+    vertical-align: middle;
+    display: inline-block;
+}
+  .flex-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .text-align-center{
+    text-align: center;
+  }
+  .tablet-show{
+    display: none;
+  }
+  .tablet-hide{
+    display: block;
+  }
+  .mobil-show{
+    display: none;
+  }
+  .mobil-hide{
+    display: block;
+  }
+  @media (min-width: 750px) and (max-width: 1024px) {
+  
+    .tablet-show{
+      display: block;
+    }
+    .tablet-hide{
+      display: none;
+    }
+    .feed{
+        margin-top: 200px;
+    }
+    .bio{
+      margin-left: 20px;
+      top: -140px;
+      width: auto;
+      left: 0px;
+    }
+    .profilobrazek{
+        margin-left: 20px;
+    }
+    .profilstatistiky{
+        margin-left: 200px;
+    }
+}
+@media (min-width: 501px) and (max-width: 767px) {
+  
+  .tablet-show{
+    display: block;
+  }
+  .tablet-hide{
+    display: none;
+  }
+  #searchbox{
+    width: 150px;
+  }
+  .feed{
+    margin-top: 200px;
+}
+.bio{
+  margin-left: 20px;
+  top: -140px;
+  width: auto;
+  left: 0px;
+}
+.profilobrazek{
+    margin-left: 20px;
+}
+.profilstatistiky{
+    margin-left: 200px;
+}
+  
+}
+
+@media (min-width: 100px) and (max-width: 500px) {
+  .mobil-show{
+    display: block;
+  }
+  .mobil-hide{
+    display: none;
+  }
+  #searchbox{
+    display: none;
+  }
+  .vyhledavaciikona{
+    width: 40px;
+    height: 40px;
+    left: -20px;
+  }
+  
+  .profilenav.mobil-show{
+    background-color: white;
+  }
+  .profilobrazek{
+    margin-left: 20px;
+    margin-top: 60px;
+    height: 125px;
+width: 125px;
+  }
+  #biojmeno{
+    position: relative;
+   
+    left: 160px;
+    margin-top: -50px;
+
+  }
+  #zbytekpopisku{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 200px;
+    width: 85vw;
+  }
+  .profilstatistiky{
+   background-color: rgb(151, 69, 113); 
+   position: relative;
+  top: -100px;
+  padding-top: 5px;
+  }
+  .feed{
+    width: 100vw;
+    margin-top: 500px;
+  }
+  .prispevek{
+    width: 100vw;
+  }
+  .statistika{
+    font-size: 0.6em;
+  }
+}

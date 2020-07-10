@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72.474" height="84.533" viewBox="0 0 72.474 84.533">
+  <defs>
+    <style>
+      .cls-1, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #003cff;
+      }
+
+      .cls-4 {
+        fill: red;
+      }
+
+      .cls-5 {
+        fill: #e0e800;
+      }
+
+      .cls-6 {
+        fill: #0a7f00;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_7" data-name="Rectangle 7" class="cls-1" width="72.474" height="84.533"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_2" data-name="Mask Group 2" class="cls-2">
+    <g id="witter3" transform="translate(-0.755 11.401)">
+      <path id="Path_14" data-name="Path 14" class="cls-3" d="M128.4,440.181a14.933,14.933,0,0,0,13.891,10.708h0A66.34,66.34,0,0,0,162.553,436.8a90.448,90.448,0,0,1-27.449,3.131A14.578,14.578,0,0,1,128.4,440.181Z" transform="translate(-120.126 -403.185)"/>
+      <path id="Path_15" data-name="Path 15" class="cls-4" d="M63.076,38.973a66.336,66.336,0,0,1-20.323,14.12A29.1,29.1,0,0,1,20.8,59.354a40.955,40.955,0,0,0,22.8,6.919c23.192.139,42.11-19.223,42.276-43.268V20.438h0L81.829,10.169A14.505,14.505,0,0,0,63.976,7.152a15.64,15.64,0,0,0-7.483,17.074" transform="translate(-20.8 -5.326)"/>
+      <path id="Path_16" data-name="Path 16" class="cls-5" d="M840.422,25.705a28.159,28.159,0,0,1-8.546,2.411,15.347,15.347,0,0,0,6.553-8.516,29.788,29.788,0,0,1-9.452,3.726h0a20.744,20.744,0,0,0,.574,5.792,31.186,31.186,0,0,0,3.473,4.6,30.449,30.449,0,0,0,7.4-8.015Z" transform="translate(-767.948 -18.483)"/>
+      <path id="Path_17" data-name="Path 17" class="cls-4" d="M97.3,59.537c-1.329-1.127-2.808-2.192-4.258-3.35A46.53,46.53,0,0,1,62.393,40a15.719,15.719,0,0,0,4.5,20.57C77.371,63.294,86.732,61.728,97.3,59.537Z" transform="translate(-57.35 -37.286)"/>
+      <path id="Path_18" data-name="Path 18" class="cls-6" d="M97.719,280.751c-10.569,2.192-19.93,3.757-30.409,1.033h0A14.007,14.007,0,0,1,60.787,280a15.355,15.355,0,0,0,11.807,15.31h0a90.449,90.449,0,0,0,27.449-3.131C103.456,286.857,101.191,283.663,97.719,280.751Z" transform="translate(-57.767 -258.501)"/>
+      <ellipse id="Ellipse_3" data-name="Ellipse 3" class="cls-7" cx="3.02" cy="3.131" rx="3.02" ry="3.131" transform="translate(49.071 4.843)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,266 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+main{
+  width: 100%;
+}
+
+.pulkastranky{
+  float: left;
+  width: 50%;
+  height: 95vh;
+}
+
+.flex-container {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text-align-center{
+  text-align: center;
+}
+.features{
+margin-top: 10vh;
+margin-bottom: 10vh;
+font-weight: bold;
+}
+.features p{
+  font-size: 20px;
+  text-align: left;
+  display: flex;
+
+}
+.velkypismo h1{
+  font-size: 40px;
+}
+
+.button-main{
+  
+  background-color:white;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color: black;
+  text-align: center;
+  border: 3px solid black;
+	font-size:20px;
+	padding:12px 65px;
+  text-decoration:none;
+  transition: 0.3s ease-in-out;
+}
+.button-main:hover{
+  
+  color: white;
+  background-color: black;
+}
+.button-main-inverse{
+ 
+  background-color:black;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color: white;
+  text-align: center;
+  border: 3px solid black;
+	font-size:20px;
+	padding:12px 65px;
+  text-decoration:none;
+  transition: 0.3s ease-in-out;
+}
+.button-main-inverse:hover{
+  color: black;
+  background-color: white;
+}
+.buttons{
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  
+}
+footer{
+  text-align: center;
+  height: 5vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer p{
+  font-size: 18px;
+
+}
+.hlavninadpis{
+  font-size: 50px;
+}
+.paragrafnadpisu{
+  font-size: 25px;
+}
+.features p{
+  display: inline-block;
+
+  vertical-align: middle;
+}
+.features img{
+  display: inline-block;
+  margin-right: 30px;
+
+vertical-align: middle;
+}
+.features .lefttext{
+  text-align: initial;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.features .textcenter{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.features .textcenterregister{
+  margin-top: 20px;
+  
+}
+input[type='text']{
+border: 2px solid black;
+border-left: 0px;
+border-right: 0px;
+border-top: 0px;
+width: 100%;
+color: black;
+font-size: 20px;
+}
+input[type='password']{
+  border: 2px solid black;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  width: 100%;
+  color: black;
+  font-size: 20px;
+  }
+  #potvrzeni{
+    margin-right: 10px; 
+  }
+  ::placeholder { 
+    color: black;
+    opacity: 1; 
+  }
+  .textcenter input{
+    margin-bottom: 30px;
+  }
+
+.logotablet{
+  max-height: 100px;
+  margin-top: 5vh;
+}
+.tablet-show{
+  display: none;
+}
+.tablet-hide{
+  display: block;
+}
+.mobil-show{
+  display: none;
+}
+.mobil-hide{
+  display: block;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .tablet-show{
+    display: block;
+  }
+  .tablet-hide{
+    display: none;
+  }
+  .pulkastranky{
+    float: none;
+    width: 100%;
+    height: 95vh;
+  }
+  .features{
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    font-weight: bold;
+    }
+}
+@media (min-width: 501px) and (max-width: 767px) {
+  
+  .tablet-show{
+    display: block;
+  }
+  .tablet-hide{
+    display: none;
+  }
+  .pulkastranky{
+    float: none;
+    width: 100%;
+    height: 95vh;
+  }
+  .features{
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    font-weight: bold;
+    }
+  
+}
+
+@media (min-width: 100px) and (max-width: 500px) {
+  .mobil-show{
+    display: block;
+  }
+  .mobil-hide{
+    display: none;
+  }
+  .features{
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    font-weight: bold;
+    }
+
+  .pulkastranky{
+    float: none;
+    width: 100%;
+    height: 95vh;
+  }
+.buttons{
+margin-top: 10vh;
+  display: block;
+  
+}
+.button-main{
+  width: 80vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+.button-main-inverse{
+  width: 80vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+.features .textcenter {
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+#mobilikony{
+  display: inline-block;
+}
+#mobilikony .textcenter {
+  display: inline-block;
+}
+.features img{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+}
