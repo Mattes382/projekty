@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.logo{
+   
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    background-size: 120% 120% !important;
+    background: linear-gradient(211deg, #e52e71, #ff8a00);
+   z-index: 100;
+   position: relative;
+    -webkit-animation: AnimationName 25s ease infinite;
+    -moz-animation: AnimationName 25s ease infinite;
+    animation: AnimationName 25s ease infinite;
+    
+
+}
+.logo:before {
+  border-radius: inherit;
+  background: linear-gradient(211deg,#ff8a00,#e52e71);
+  background-size: 120% 120% !important;
+  content: '';    
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0; left: 0;
+  opacity: 0;
+  width: 100%;
+  z-index: -100;
+  -webkit-animation: AnimationName 25s ease infinite, zvetsit 1s ease 6s forwards;
+  -moz-animation: AnimationName 25s ease infinite, zvetsit 1s ease 6s forwards;
+  animation: AnimationName 25s ease infinite, zvetsit 1s ease 6s forwards;
+  
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
+
+  #prvni{
+    
+    opacity: 0;
+    -webkit-animation: zoomInDown 0.8s ease 6.7s forwards;
+    -moz-animation: zoomInDown 0.8s ease 6.7s forwards;
+      -o-animation: zoomInDown 0.8s ease 6.7s forwards;
+    animation: zoomInDown 0.8s ease 6.7s forwards;
+  }
+  #druhy{
+    
+    opacity: 0;
+    -webkit-animation: zoomInDown 0.8s ease 7s forwards;
+    -moz-animation: zoomInDown 0.8s ease 7s forwards;
+      -o-animation: zoomInDown 0.8s ease 7s forwards;
+    animation: zoomInDown 0.8s ease 7s forwards;
+  }
+  #treti{
+    
+    opacity: 0;
+    -webkit-animation: zoomInDown 0.8s ease 7.3s forwards;
+    -moz-animation: zoomInDown 0.8s ease 7.3s forwards;
+      -o-animation: zoomInDown 0.8s ease 7.3s forwards;
+    animation: zoomInDown 0.8s ease 7.3s forwards;
+   
+  }
+  #ctvrty{
+    opacity: 0;
+    -webkit-animation: zoomInDown 0.8s ease 7.6s forwards;
+    -moz-animation: zoomInDown 0.8s ease 7.6s forwards;
+      -o-animation: zoomInDown 0.8s ease 7.6s forwards;
+    animation: zoomInDown 0.8s ease 7.6s forwards;
+  }
+
+
+.nabidka{
+width: 50vw;
+height: 100px;
+
+justify-content: space-around;
+margin-top: 5vh;
+
+display: flex;
+}
+
+
+
+.nabidka a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.6vw;
+    height: 2.7vw;
+    
+    transition: 0.3s ease;
+    margin-top: 5px;
+}
+.nabidka a:hover{
+transition: 2s ease;
+
+}
+#logo{
+    animation: fill 1s ease forwards 6s;
+    width: 50vw;
+    margin-top: 100px;
+}
+.logomobil{
+  animation: fill 1s ease forwards 6s;
+ 
+  display: none;
+}
+
+#logo path:nth-child(1){
+stroke-dasharray: 367.6080627441406;
+stroke-dashoffset: 367.6080627441406;
+animation: line-anim 2s ease forwards 0.6s;
+}
+#logo path:nth-child(2){
+stroke-dasharray: 240.1605682373047;
+stroke-dashoffset: 240.1605682373047;
+animation: line-anim 2s ease forwards 0.9s;
+}
+#logo path:nth-child(3){
+stroke-dasharray: 159.86270141601562;
+stroke-dashoffset: 159.86270141601562;
+animation: line-anim 2s ease forwards 1.2s;
+}
+#logo path:nth-child(4){
+stroke-dasharray: 306.4925537109375;
+stroke-dashoffset: 306.4925537109375;
+animation: line-anim 2s ease forwards 1.5s;
+}
+#logo path:nth-child(5){
+stroke-dasharray: 157.85003662109375;
+stroke-dashoffset: 157.85003662109375;
+animation: line-anim 2s ease forwards 1.8s;
+}
+#logo path:nth-child(6){
+stroke-dasharray: 262.10931396484375;
+stroke-dashoffset: 262.10931396484375;
+animation: line-anim 2s ease forwards 2.1s;
+}
+#logo path:nth-child(7){
+stroke-dasharray: 213.5649871826172;
+stroke-dashoffset: 213.5649871826172;
+animation: line-anim 2s ease forwards 2.4s;
+}
+#logo path:nth-child(8){
+stroke-dasharray: 200.60406494140625;
+stroke-dashoffset: 200.60406494140625;
+animation: line-anim 2s ease forwards 2.7s;
+}
+#logo path:nth-child(9){
+stroke-dasharray: 276.8117370605469;
+stroke-dashoffset: 276.8117370605469;
+animation: line-anim 2s ease forwards 3s;
+}
+#logo path:nth-child(10){
+stroke-dasharray: 125.84114074707031;
+stroke-dashoffset: 125.84114074707031;
+animation: line-anim 2s ease forwards 3.3s;
+}
+#logo path:nth-child(11){
+stroke-dasharray: 259.5696105957031;
+stroke-dashoffset: 259.5696105957031;
+animation: line-anim 2s ease forwards 3.6s;
+}
+#logo path:nth-child(12){
+stroke-dasharray: 109.2036361694336;
+stroke-dashoffset: 109.2036361694336;
+animation: line-anim 2s ease forwards 3.9s;
+}
+#logo path:nth-child(13){
+stroke-dasharray: 117.0719985961914;
+stroke-dashoffset: 117.0719985961914;
+animation: line-anim 2s ease forwards 4.2s;
+}
+
+
+@keyframes line-anim{
+    to{
+        stroke-dashoffset: 0;
+    }
+    
+}
+@keyframes mobillogo{
+  from{
+    margin-top: 0vh;
+  }
+  to{
+    margin-top: -10vh;
+  }
+  
+}
+
+@keyframes zvetsit{
+    0%{
+      opacity: 0;
+      
+        
+    }
+    100%{
+      opacity: 1;
+      
+    }
+    
+}
+@keyframes zmensit{
+  0%{
+    opacity: 1;
+    
+      
+  }
+  100%{
+    opacity: 0;
+    
+  }
+  
+}
+@keyframes fill{
+    from{
+        fill: transparent;
+    }
+to{
+    fill: white;
+}
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:91% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:91% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:91% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:91% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:91% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:91% 0%}
+}
+
+@-webkit-keyframes zoomInDown {
+    from {
+      opacity: 0;
+      -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -800px, 0);
+      transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -800px, 0);
+      -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+      animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+  
+    60% {
+      opacity: 1;
+      -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+      transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+      -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+      animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    }
+    to{
+        opacity: 1;
+    }
+  }
+  
+  @keyframes zoomInDown {
+    from {
+      opacity: 0;
+      -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -800px, 0);
+      transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -800px, 0);
+      -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+      animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+  
+    60% {
+      opacity: 1;
+      -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+      transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+      -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+      animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    }    
+    to{
+        opacity: 1;
+    }
+  }
+  
+  .zoomInDown {
+    -webkit-animation-name: zoomInDown;
+    animation-name: zoomInDown;
+  }
+  
+
+
+  /* Underline From Center */
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
+  bottom: 0;
+  background: white;
+  height: 0.05em;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+
+@media (min-width: 100px) and (max-width: 1200px) {
+
+      .logonormalni{
+        display: none;
+      }
+      .logomobil{
+        display: block;
+      }
+      .nabidka{
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        width: auto;
+        
+        }
+        .nabidka a{
+          font-size: 20px;
+          height: 30px;
+          margin-bottom: 20px;
+          }
+      #logo{
+        width: 55vw;
+        animation: fill 1s ease forwards 6s;
+        margin-top: 10vh;
+      }
+
+}
