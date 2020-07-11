@@ -65,6 +65,7 @@ li {
       -o-animation: zoomInDown 0.8s ease 7s forwards;
     animation: zoomInDown 0.8s ease 7s forwards;
   }
+  /* origo maj byt 4*/
   #treti{
     
     opacity: 0;
